@@ -1,0 +1,10 @@
+{
+  "_comment": "Fill in real links after you're approved for each program. Leave a value as the placeholder string (containing 'ADD_YOUR') and the bot will skip the link line in that post rather than publish a broken/placeholder link.",
+
+  "amazon_books": "ADD_YOUR_AMAZON_ASSOCIATES_LINK",
+  "groww_signup": "ADD_YOUR_GROWW_REFERRAL_LINK",
+  "zerodha_signup": "ADD_YOUR_ZERODHA_REFERRAL_LINK",
+  "indmoney_signup": "ADD_YOUR_INDMONEY_REFERRAL_LINK",
+  "cuelinks_deal": "ADD_YOUR_CUELINKS_DEAL_LINK",
+  "templates_store": "ADD_YOUR_PAYHIP_STORE_LINK"
+}
