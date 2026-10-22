@@ -1,6 +1,6 @@
 {
   "_slot_cursor": {
-    "morning": 1,
+    "morning": 2,
     "evening": 3
   },
   "deep_dive": {
@@ -54,7 +54,7 @@
       3,
       1
     ],
-    "cursor": 1
+    "cursor": 2
   },
   "deal_alerts": {
     "order": [
