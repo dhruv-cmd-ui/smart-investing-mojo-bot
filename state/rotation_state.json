@@ -1,6 +1,6 @@
 {
   "_slot_cursor": {
-    "morning": 2,
+    "morning": 1,
     "evening": 3
   },
   "deep_dive": {
@@ -21,7 +21,7 @@
       8,
       9
     ],
-    "cursor": 3
+    "cursor": 4
   },
   "book_picks": {
     "order": [
