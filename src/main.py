@@ -1,5 +1,6 @@
 """Orchestrator: pick content for a slot, render an image card, post to Telegram, persist rotation state."""
 import argparse
+import html
 import json
 import sys
 from datetime import datetime
@@ -42,10 +43,11 @@ def build_post(bank_name: str, item: dict):
     """Returns (category, heading, body, caption)."""
     heading = item["heading"]
     body = item["body"]
+    # Telegram parse_mode=HTML rejects stray "<...>" in text, so escape before wrapping in tags.
     category = bank_name
 
     caption_body = body if len(body) <= 600 else body[:597] + "..."
-    caption = f"<b>{heading}</b>\n\n{caption_body}\n\n{DISCLAIMER}"
+    caption = f"<b>{html.escape(heading, quote=False)}</b>\n\n{html.escape(caption_body, quote=False)}\n\n{DISCLAIMER}"
 
     link_url = load_affiliate_link(item.get("link_key"))
     if link_url:
