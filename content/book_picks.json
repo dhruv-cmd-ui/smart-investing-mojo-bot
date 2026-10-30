@@ -1,13 +1,74 @@
 [
-  {"heading": "Book Pick: \"The Psychology of Money\"", "body": "Morgan Housel's core argument: financial success is less about what you know and more about how you behave under uncertainty. A short, highly readable entry point for anyone who finds finance intimidating but wants to actually understand their own money decisions.", "link_key": "amazon_books", "link_label": "Get it on Amazon"},
-  {"heading": "Book Pick: \"Let's Talk Money\" by Monika Halan", "body": "One of the clearest India-specific personal finance books available — covers insurance, investing basics, and real rupee examples instead of generic global advice. A strong first finance book for Indian readers specifically.", "link_key": "amazon_books", "link_label": "Get it on Amazon"},
-  {"heading": "Book Pick: \"Rich Dad Poor Dad\"", "body": "Robert Kiyosaki's framing of assets vs liabilities is simple but genuinely reframes how a lot of first-time readers think about spending decisions. Treat the specific investment advice with some skepticism — the mindset shift is the valuable part.", "link_key": "amazon_books", "link_label": "Get it on Amazon"},
-  {"heading": "Book Pick: \"The Intelligent Investor\"", "body": "Benjamin Graham's classic on value investing and margin of safety — dense in places, but the core ideas (buying below intrinsic value, staying emotionally detached from market swings) remain foundational to long-term investing nearly a century later.", "link_key": "amazon_books", "link_label": "Get it on Amazon"},
-  {"heading": "Book Pick: \"Coffee Can Investing\"", "body": "Saurabh Mukherjea's India-specific case for buying quality businesses and holding them for the very long term with minimal trading — a useful counterweight for readers tempted toward frequent trading or market timing.", "link_key": "amazon_books", "link_label": "Get it on Amazon"},
-  {"heading": "Book Pick: \"I Will Teach You to Be Rich\"", "body": "Ramit Sethi's practical, step-by-step approach to automating savings, negotiating bills, and building a 'conscious spending plan' — less theory, more a checklist you can actually implement in a weekend.", "link_key": "amazon_books", "link_label": "Get it on Amazon"},
-  {"heading": "Book Pick: \"The Millionaire Next Door\"", "body": "Research-driven look at how most actual US millionaires live well below their visible means rather than showing wealth outwardly. The underlying lesson — net worth over appearances — travels well beyond its US setting.", "link_key": "amazon_books", "link_label": "Get it on Amazon"},
-  {"heading": "Book Pick: \"Thinking, Fast and Slow\"", "body": "Not a finance book directly, but Daniel Kahneman's work on cognitive biases (loss aversion, anchoring, overconfidence) explains much of why investors make irrational decisions with money — essential background for understanding your own behavior.", "link_key": "amazon_books", "link_label": "Get it on Amazon"},
-  {"heading": "Book Pick: \"One Up on Wall Street\"", "body": "Peter Lynch's case for 'investing in what you know' — using everyday observations about businesses and products to spot opportunities before Wall Street analysts catch on. A good read once you're past the absolute basics.", "link_key": "amazon_books", "link_label": "Get it on Amazon"},
-  {"heading": "Book Pick: \"Your Money or Your Life\"", "body": "Reframes every purchase in terms of the hours of life-energy it cost to earn that money — a genuinely different lens on spending that many readers say permanently changed how they evaluate purchases.", "link_key": "amazon_books", "link_label": "Get it on Amazon"},
-  {"heading": "Book Pick: \"The Barefoot Investor\" (India-adapted lens)", "body": "Scott Pape's bucket-based approach to splitting income (daily expenses, splurge, smile/goals, fire extinguisher/emergencies) is a concrete system you can adapt directly to Indian bank accounts and SIPs, even though it's written for an Australian audience.", "link_key": "amazon_books", "link_label": "Get it on Amazon"}
+  {
+    "heading": "Book Pick: \"The Psychology of Money\"",
+    "body": "Morgan Housel's core argument: financial success is less about what you know and more about how you behave under uncertainty. A short, highly readable entry point for anyone who finds finance intimidating but wants to actually understand their own money decisions.",
+    "link_key": "amazon_psychology_of_money",
+    "link_label": "Get it on Amazon"
+  },
+  {
+    "heading": "Book Pick: \"Let's Talk Money\" by Monika Halan",
+    "body": "One of the clearest India-specific personal finance books available — covers insurance, investing basics, and real rupee examples instead of generic global advice. A strong first finance book for Indian readers specifically.",
+    "link_key": "amazon_books",
+    "link_label": "Get it on Amazon"
+  },
+  {
+    "heading": "Book Pick: \"Rich Dad Poor Dad\"",
+    "body": "Robert Kiyosaki's framing of assets vs liabilities is simple but genuinely reframes how a lot of first-time readers think about spending decisions. Treat the specific investment advice with some skepticism — the mindset shift is the valuable part.",
+    "link_key": "amazon_rich_dad",
+    "link_label": "Get it on Amazon"
+  },
+  {
+    "heading": "Book Pick: \"The Intelligent Investor\"",
+    "body": "Benjamin Graham's classic on value investing and margin of safety — dense in places, but the core ideas (buying below intrinsic value, staying emotionally detached from market swings) remain foundational to long-term investing nearly a century later.",
+    "link_key": "amazon_books",
+    "link_label": "Get it on Amazon"
+  },
+  {
+    "heading": "Book Pick: \"Coffee Can Investing\"",
+    "body": "Saurabh Mukherjea's India-specific case for buying quality businesses and holding them for the very long term with minimal trading — a useful counterweight for readers tempted toward frequent trading or market timing.",
+    "link_key": "amazon_books",
+    "link_label": "Get it on Amazon"
+  },
+  {
+    "heading": "Book Pick: \"I Will Teach You to Be Rich\"",
+    "body": "Ramit Sethi's practical, step-by-step approach to automating savings, negotiating bills, and building a 'conscious spending plan' — less theory, more a checklist you can actually implement in a weekend.",
+    "link_key": "amazon_books",
+    "link_label": "Get it on Amazon"
+  },
+  {
+    "heading": "Book Pick: \"The Millionaire Next Door\"",
+    "body": "Research-driven look at how most actual US millionaires live well below their visible means rather than showing wealth outwardly. The underlying lesson — net worth over appearances — travels well beyond its US setting.",
+    "link_key": "amazon_millionaire_next_door",
+    "link_label": "Get it on Amazon"
+  },
+  {
+    "heading": "Book Pick: \"Thinking, Fast and Slow\"",
+    "body": "Not a finance book directly, but Daniel Kahneman's work on cognitive biases (loss aversion, anchoring, overconfidence) explains much of why investors make irrational decisions with money — essential background for understanding your own behavior.",
+    "link_key": "amazon_books",
+    "link_label": "Get it on Amazon"
+  },
+  {
+    "heading": "Book Pick: \"One Up on Wall Street\"",
+    "body": "Peter Lynch's case for 'investing in what you know' — using everyday observations about businesses and products to spot opportunities before Wall Street analysts catch on. A good read once you're past the absolute basics.",
+    "link_key": "amazon_books",
+    "link_label": "Get it on Amazon"
+  },
+  {
+    "heading": "Book Pick: \"Your Money or Your Life\"",
+    "body": "Reframes every purchase in terms of the hours of life-energy it cost to earn that money — a genuinely different lens on spending that many readers say permanently changed how they evaluate purchases.",
+    "link_key": "amazon_books",
+    "link_label": "Get it on Amazon"
+  },
+  {
+    "heading": "Book Pick: \"The Barefoot Investor\" (India-adapted lens)",
+    "body": "Scott Pape's bucket-based approach to splitting income (daily expenses, splurge, smile/goals, fire extinguisher/emergencies) is a concrete system you can adapt directly to Indian bank accounts and SIPs, even though it's written for an Australian audience.",
+    "link_key": "amazon_books",
+    "link_label": "Get it on Amazon"
+  },
+  {
+    "heading": "Book Pick: \"Trading in the Zone\"",
+    "body": "Mark Douglas on why most traders fail from psychology, not strategy: discipline, thinking in probabilities and accepting risk before you enter. Worth reading before you place your first active trade, not after your first big loss.",
+    "link_key": "amazon_trading_in_the_zone",
+    "link_label": "Get it on Amazon"
+  }
 ]

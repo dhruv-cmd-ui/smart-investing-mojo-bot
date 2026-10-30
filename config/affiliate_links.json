@@ -1,7 +1,11 @@
 {
   "_comment": "Fill in real links after you're approved for each program. Leave a value as the placeholder string (containing 'ADD_YOUR') and the bot will skip the link line in that post rather than publish a broken/placeholder link.",
 
-  "amazon_books": "ADD_YOUR_AMAZON_ASSOCIATES_LINK",
+  "amazon_books": "https://www.amazon.in/s?k=personal+finance+books&tag=smartmoneyin2-21",
+  "amazon_psychology_of_money": "https://www.amazon.in/dp/9390166268?tag=smartmoneyin2-21",
+  "amazon_rich_dad": "https://www.amazon.in/dp/1612681131?tag=smartmoneyin2-21",
+  "amazon_millionaire_next_door": "https://www.amazon.in/dp/9394852492?tag=smartmoneyin2-21",
+  "amazon_trading_in_the_zone": "https://www.amazon.in/dp/0593538447?tag=smartmoneyin2-21",
   "groww_signup": "ADD_YOUR_GROWW_REFERRAL_LINK",
   "zerodha_signup": "ADD_YOUR_ZERODHA_REFERRAL_LINK",
   "indmoney_signup": "ADD_YOUR_INDMONEY_REFERRAL_LINK",
