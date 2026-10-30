@@ -9,7 +9,7 @@ STATE_PATH = Path(__file__).resolve().parent.parent / "state" / "rotation_state.
 # Maps a scheduled slot name to the content banks eligible for it.
 SLOT_BANKS = {
     "morning": ["deep_dive", "tool_reviews"],
-    "evening": ["book_picks", "deal_alerts", "template_promo"],
+    "evening": ["book_picks", "deal_alerts", "book_picks", "template_promo"],  # books get every other evening
 }
 
 BANK_FILES = {

@@ -24,6 +24,8 @@ DISCLAIMER = (
 
 CHANNEL_TAG = "#SmartInvestingIndia"
 
+BOOKS_PAGE_URL = "https://dhruv-cmd-ui.github.io/smart-money-india-blog/books.html"
+
 LINKS_PATH = Path(__file__).resolve().parent.parent / "config" / "affiliate_links.json"
 
 
@@ -53,6 +55,9 @@ def build_post(bank_name: str, item: dict):
     if link_url:
         link_label = item.get("link_label", "Learn more")
         caption += f"\n\n🔗 {link_label} (affiliate link — we may earn a commission): {link_url}"
+
+    elif bank_name in ("deep_dive", "tool_reviews"):
+        caption += f"\n\n📚 Recommended reads (affiliate links — we may earn a commission): {BOOKS_PAGE_URL}"
 
     caption += f"\n{CHANNEL_TAG}"
     if len(caption) > 1024:
